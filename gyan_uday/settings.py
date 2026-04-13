@@ -18,7 +18,7 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = config(
     'ALLOWED_HOSTS',
-    default='localhost,127.0.0.1,0.0.0.0',
+    default='localhost,127.0.0.1,0.0.0.0,dashboard-project-1-vz5r.onrender.com',
     cast=lambda v: [s.strip() for s in v.split(',')]
 )
 
